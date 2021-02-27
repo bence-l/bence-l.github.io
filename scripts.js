@@ -7,6 +7,7 @@ function addItem() {
         $('#toDoList').append(`<li class="item">` + listItem + 
         `<input class="doneBtn" type="image" src="tick.svg"></input>` + 
         `<input class="remBtn" type="image" src="bin.svg"></input>` + `</li>`)
+        $('#inputMezo').val('')
 }
 
 function removeItem() {
@@ -32,7 +33,6 @@ function btnPush() {
         }
      }) 
 }
-
 
 
 
