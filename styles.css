@@ -1,0 +1,99 @@
+#toDoList input{
+    width: 25px;
+    height: 25px;
+    font-family: 'Space Mono', monospace;
+    font-size: 16px;  
+}
+
+#toDoList{
+    color: #001F3F;
+}
+
+#container{
+    width: 600px;
+    background-color: #7FDBFF;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 7px 2px grey;
+}
+
+h1{
+    font-family: 'Space Mono', monospace;
+    color:#001F3F;
+    margin-top: 0px;
+    text-align: center;
+}
+
+body{
+    font-family: 'Space Mono', monospace;
+}
+
+#inputMezo{
+    width: 410px;
+    height: 25px;
+    background-color:#0074D9;
+    border: 0px;
+    border-radius: 3px;
+    margin-right: 5px;
+    font-family: 'Space Mono', monospace;
+    color: white;
+    margin-bottom: 20px;
+    font-size: 16px;
+    padding-left: 18px;
+}
+
+#addGomb{
+    height: 26px;
+    width: 50px;
+    border-radius: 3px;
+    border-color:#0074D9;
+    border: 0px;
+    background-color:#0074D9;
+    font-family: 'Space Mono', monospace;
+    font-size: 16px;
+    color:white;
+    margin-right: 5px;
+}
+
+#clearAll{
+    height: 26px;
+    width: 105px;
+    border-radius: 3px;
+    border-color:#0074D9;
+    border: 0px;
+    background-color:#0074D9;
+    font-family: 'Space Mono', monospace;
+    font-size: 16px;
+    color:white;
+}
+
+.doneBtn{
+    margin-left: 15px;
+    margin-right: 5px;
+    position: relative;
+    top: 6px;
+}
+
+.remBtn{
+    position: relative;
+    top: 6px;
+}
+
+.doneBtn:hover{
+    opacity: 50%;
+}
+
+.remBtn:hover{
+    opacity: 50%;
+}
+
+#addGomb:hover{
+    opacity: 80%;
+}
+
+#inputMezo:hover{
+    opacity: 80%;
+}
